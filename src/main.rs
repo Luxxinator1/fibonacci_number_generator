@@ -10,7 +10,7 @@ fn main() {
             .read_line(&mut n)
             .expect("Please input a positive number!");
 
-        let _n: u64 = match n.trim().parse() {
+        let n: u64 = match n.trim().parse() {
             Ok(n) => n,
             Err(_) => {
                 println!("{n} is not a valid number!");
