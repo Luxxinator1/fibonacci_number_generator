@@ -11,4 +11,4 @@ A simple cli application to calculate the fibonacci number written in rust.
 - cd into the src/ directory
 - Type cargo b -\-release in your terminal
 - cd into the target/release/ directory
-- Type ./met and execute the propram
+- Type ./fibonacci_number_generator and execute the program
